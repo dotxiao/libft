@@ -25,7 +25,7 @@ void	ft_print_comb2(void)
 {
 	int i;
 	int j;
-	
+
 	i = 0;
 	j = 0;
 	while (1)

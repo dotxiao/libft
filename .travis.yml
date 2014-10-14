@@ -3,4 +3,15 @@ language: c
 compiler:
   - gcc
 
-script: wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb && ruby rubynette.rb */*.c */*.h && make
+before_install:
+  - 
+  - 
+
+install:
+  - 
+
+
+script:
+  - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
+  - ruby rubynette.rb */*.c */*.h 
+  - make

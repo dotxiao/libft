@@ -1,5 +1,5 @@
-Programme : main.o fonctions.o
-	gcc main.o fonctions.o -o Programme
+test : main.o fonctions.o
+	gcc main.o fonctions.o -o test
 
 main.o : main.c fonctions.c
 	gcc -c main.c -o main.o

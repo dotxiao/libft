@@ -3,4 +3,4 @@ language: c
 compiler:
   - gcc
 
-script: make
+script: wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb; make

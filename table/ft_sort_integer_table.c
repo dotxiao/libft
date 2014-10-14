@@ -27,7 +27,7 @@ void	ft_sort_integer_table(int *tab, int size)
 	mod = 1;
 	while (mod == 1)
 	{
-		mod = 0;	
+		mod = 0;
 		i = 0;
 		while (i < (size - 1))
 		{

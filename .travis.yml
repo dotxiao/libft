@@ -10,5 +10,5 @@ install:
 
 
 script:
-  - ruby rubynette.rb #*/*.c */*.h 
+  - ruby rubynette.rb */*.c */*.h
   - make

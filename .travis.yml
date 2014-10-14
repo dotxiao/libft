@@ -1,3 +1,6 @@
 language: c
 
-make
+compiler:
+  - gcc
+
+script: make

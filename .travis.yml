@@ -4,14 +4,11 @@ compiler:
   - gcc
 
 before_install:
-  - 
-  - 
+  - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
 
 install:
-  - 
 
 
 script:
-  - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
-  - ruby rubynette.rb */*.c */*.h 
+  - ruby rubynette.rb #*/*.c */*.h 
   - make

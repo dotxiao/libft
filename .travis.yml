@@ -3,5 +3,4 @@ language: c
 compiler:
   - gcc
 
-script: cat Makefile
-        make
+script: make

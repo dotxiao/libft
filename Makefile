@@ -1,8 +1,19 @@
-test : main.o fonctions.o
-	gcc main.o fonctions.o -o test
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+OBJ = libft.a
 
-main.o : main.c fonctions.c
-	gcc -c main.c -o main.o
 
-fonctions.o : fonctions.c
-	gcc -c fonctions.c -o fonctions.o
+all:
+		make -C io
+		make -C str
+		make -C table
+		make -C misc
+		make -C math
+		ar -rv libft.a io/ft_putchar.o
+
+clean:
+		rm -rf *.o
+		make -C io clean
+		make -C str clean
+		make -C table clean
+		make -C math clean

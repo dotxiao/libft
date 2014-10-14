@@ -6,11 +6,13 @@
 /*   By: adoussau <antoine@doussaud.org>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/07/05 20:22:10 by adoussau          #+#    #+#             */
-/*   Updated: 2014/07/06 21:27:44 by adoussau         ###   ########.fr       */
+/*   Updated: 2014/10/14 19:58:30 by adoussau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_isdigit(int c);
 int	ft_isspace(int c)
+
 {
 	return (c == ' '
 			|| c == '\t'

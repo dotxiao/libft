@@ -3,4 +3,8 @@ language: c
 compiler:
   - gcc
 
-script: wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb && ruby rubynette.rb */*.c */*.h && make
+script:
+  - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
+  - ruby rubynette.rb */*.c */*.h
+  - make
+  - ls

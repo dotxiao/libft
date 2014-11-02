@@ -3,8 +3,13 @@ language: c
 compiler:
   - gcc
 
-script:
+before_install:
   - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
+
+install:
+
+
+script:
   - ruby rubynette.rb */*.c */*.h
   - make
   - ls

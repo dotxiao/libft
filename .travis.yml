@@ -8,5 +8,6 @@ install:
 
 script:
   - ruby rubynette.rb */*.c */*.h
+  - cd src
   - make
   - ls

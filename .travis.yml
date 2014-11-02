@@ -4,11 +4,8 @@ language: c
 compiler:
   - gcc
 
-before_install:
-  - wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
-
 install:
-
+- wget https://raw.githubusercontent.com/Nax/rubynette/master/rubynette.rb
 
 script:
   - ruby rubynette.rb */*.c */*.h
